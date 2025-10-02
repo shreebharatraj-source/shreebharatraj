@@ -1265,7 +1265,7 @@ const ClientsSection = () => {
 
 const ContactForm = () => {
  // const API_URL = process.env.REACT_APP_API_URL || 'http:localhost:5000'
-  const API_URL = process.env.REACT_APP_API_URL || 'https://serverapi-phi.vercel.app'
+  const API_URL = process.env.REACT_APP_API_URL || 'https://flask-hello-world-seven-sepia-87.vercel.app'
   const [formData, setFormData] = useState({
     name: '',
     company: '',
